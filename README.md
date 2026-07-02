@@ -12,12 +12,14 @@
 - Худшая позиция — мужчина 3-го класса: 13.5% выживших
 
 ## Инструменты
-
 Python, pandas, seaborn, matplotlib
 
 ## Как воспроизвести
+1. Установить зависимости: `pip install pandas seaborn matplotlib`
+2. Открыть `titanic_analysis.ipynb`
+3. Выполнить ячейки по порядку
 
-1. Открыть `titanic_analysis.ipynb`
-2. Выполнить ячейки по порядку
+## Источник данных
+[Titanic dataset (datasciencedojo)](https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv)
 
-![График](/1.png)
+![Выживаемость по классу и полу](survival_by_class_and_sex.png)
